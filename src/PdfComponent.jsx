@@ -93,7 +93,8 @@ const PdfComponent = React.forwardRef(({ data }, ref) => {
         {renderKpiTable(data?.scorecardTitles?.msKPI || 'Marketing & Sales', data?.msKPI)}
         {renderKpiTable(data?.scorecardTitles?.ppicKPI || 'PPIC', data?.ppicKPI)}
         {renderKpiTable(data?.scorecardTitles?.warehouseKPI || 'Warehouse', data?.warehouseKPI)}
-        {renderKpiTable(data?.scorecardTitles?.financeKPI || 'Finance', data?.financeKPI)}
+        {renderKpiTable(data?.scorecardTitles?.rdKPI || 'R&D', data?.rdKPI)}
+        {renderKpiTable(data?.scorecardTitles?.creatveKPI || 'Creative', data?.creatveKPI)}
       </div>
 
       {/* Rock Review */}

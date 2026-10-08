@@ -24,13 +24,14 @@ const INITIAL_STATE = {
     { id: 3, name: 'Marketing & Sales', checked: false },
     { id: 4, name: 'PPIC', checked: false},
     { id: 5, name: 'Warehouse', checked: false},
-    { id: 6, name: 'Finance', checked: false},
+    { id: 6, name: 'R&D', checked: false},
     { id: 7, name: 'Integrator', checked: false},
-    { id: 8, name: 'Owner', checked: false}
+    { id: 8, name: 'Owner', checked: false},
+    { id: 9, name: 'Creative', checked: false}
   ],
   goodNews: { owner: '', integrator: '', team: '' },
-  scorecardTitles: { operasionalKPI: 'Operasional', bdKPI: 'Business Development', msKPI: 'Marketing & Sales', ppicKPI: 'PPIC', warehouseKPI: 'Warehouse', financeKPI: 'Finance' },
-  operasionalKPI: [], bdKPI: [], msKPI: [], ppicKPI: [], warehouseKPI: [], financeKPI: [], 
+  scorecardTitles: { operasionalKPI: 'Operasional', bdKPI: 'Business Development', msKPI: 'Marketing & Sales', ppicKPI: 'PPIC', warehouseKPI: 'Warehouse', rdKPI: 'R&D', creativeKPI: 'Creative' },
+  operasionalKPI: [], bdKPI: [], msKPI: [], ppicKPI: [], warehouseKPI: [], rdKPI: [], creativeKPI: [], 
   rockReview: [], headlines: { customer: [], internal: [] }, todoList: [],
   idsSession: {
     issues: [],
